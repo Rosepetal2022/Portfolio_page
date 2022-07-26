@@ -67,7 +67,7 @@ header nav ul li {
     justify-content: space-between;
 }
 
-.about-me {
+.about-me-title {
     padding: 30px;
     text-align: center;
 }
@@ -103,6 +103,7 @@ header nav ul li {
     padding-top: 10px;
     border: 5px solid skyblue;
     text-align: center;
+    text-decoration: none;
     background-color: #36454F;
     color: white;
     position: relative;
@@ -122,6 +123,7 @@ header nav ul li {
     padding-top: 10px;
     border: 5px solid skyblue;
     text-align: center;
+    text-decoration: none;
     color: white;
     position: relative;
     display: flex;
@@ -140,6 +142,7 @@ header nav ul li {
     padding-top: 10px;
     border: 5px solid skyblue;
     text-align: center;
+    text-decoration: none;
     color: white;
     position: relative;
     display: flex;
@@ -158,6 +161,7 @@ header nav ul li {
     padding-top: 10px;
     border: 5px solid skyblue;
     text-align: center;
+    text-decoration: none;
     color: white;
     position: relative;
     display: flex;
@@ -214,7 +218,7 @@ header nav ul li {
 
 footer {
     background-color: #36454F;
-    height: 100px;
+    height: 100%;
     width: 100%;
     padding: 20px;
 }
@@ -247,3 +251,64 @@ footer ul li a {
     color: white;
     padding: 10px;
 }
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header h1 {
+        margin: 5px 10px 5px 10px;
+    }
+    
+    header nav ul li {
+        display: flex;
+        align-items: center;
+    }
+
+    .primary-style {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .about-me-title {
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about-me-content p {
+        border-top: 3px solid black;
+        border-left: none;
+        padding: 10px
+    }
+
+    .work-title {
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .work-boxes {
+        border-top: 3px solid black;
+        border-left: none;
+    }
+
+    .contact-me {
+        max-height: fit-content;
+
+    }
+    
+    .footer-content ul li {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+    

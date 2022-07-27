@@ -23,6 +23,7 @@ header h1{
     text-decoration: none;
     padding: 5px 50px 5px 50px;
     margin: 0px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a {
@@ -46,14 +47,15 @@ header nav ul li {
     display: flex;
 }
 
-.banner-text {
+.my-picture {
+    height: 125px;
+    width: 100px;
     margin: 20px;
-    padding: 5px;
     display: flex;
     align-self: flex-end;
     font-size: 18px;
     border: 3px solid black;
-    background-color: skyblue;
+    background-image: url("../assets/images/DC-win-photo.png");
 }
 
 /*border style ends*/
@@ -68,13 +70,13 @@ header nav ul li {
 }
 
 .about-me-title {
-    padding: 30px;
+    padding: 10px;
     text-align: center;
 }
 
 .about-me-content p {
-    margin: 30px;
-    padding-left: 50px;
+    margin: 40px;
+    padding-left: 80px;
     border-left: 3px solid black;
 }
 /*About me style ends*/
@@ -109,6 +111,7 @@ header nav ul li {
     position: relative;
     display: flex;
     justify-content: center;
+    border-radius: 15px;
     background-image: url("../assets/images/surfreport.avif");
 }
 
@@ -128,6 +131,7 @@ header nav ul li {
     position: relative;
     display: flex;
     justify-content: center;
+    border-radius: 15px;
     background-image: url("../assets/images/LEDwall.jpg");
 }
 
@@ -147,6 +151,7 @@ header nav ul li {
     position: relative;
     display: flex;
     justify-content: center;
+    border-radius: 15px;
     background-image: url("../assets/images/calculato\ photo.jpg");
 }
 
@@ -166,6 +171,7 @@ header nav ul li {
     position: relative;
     display: flex;
     justify-content: center;
+    border-radius: 15px;
     background-image: url("../assets/images/Pastelpuzzle.webp");
 }
 
@@ -185,6 +191,7 @@ header nav ul li {
     position: relative;
     display: flex;
     justify-content: center;
+    border-radius: 15px;
     background-image: url("../assets/images/hero-bg.jpg");
 }
 
@@ -208,13 +215,7 @@ header nav ul li {
     font-size: 16px;
 }
 
-
-
-
-
-
-
-
+/*work style ends*/
 
 footer {
     background-color: #36454F;
@@ -253,7 +254,7 @@ footer ul li a {
 }
 
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     header {
         width: 100%;
@@ -274,10 +275,11 @@ footer ul li a {
         justify-content: center;
         flex-direction: column;
     }
-    
     .about-me-title {
         height: 100px;
         width: 100px;
+        padding: 20px;
+        margin-bottom: 0px;
         display: flex;
         justify-content: center;
     }
@@ -285,6 +287,7 @@ footer ul li a {
     .about-me-content p {
         border-top: 3px solid black;
         border-left: none;
+        margin-top: 0px;
         padding: 10px
     }
 
@@ -311,4 +314,3 @@ footer ul li a {
         flex-wrap: wrap;
     }
 }
-    

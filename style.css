@@ -40,7 +40,7 @@ header nav ul li {
 /*banner style begins*/
 
 .banner-img {
-    background-image: url("../assets/images/banner-photo2.jpg");
+    background-image: url("banner-photo2.jpg");
     background-size: cover;
     width: 100%;
     height: 200px;
@@ -55,7 +55,7 @@ header nav ul li {
     align-self: flex-end;
     font-size: 18px;
     border: 3px solid black;
-    background-image: url("../assets/images/DC-win-photo.png");
+    background-image: url("DC-win-photo.png");
 }
 
 /*border style ends*/
@@ -112,7 +112,7 @@ header nav ul li {
     display: flex;
     justify-content: center;
     border-radius: 15px;
-    background-image: url("../assets/images/surfreport.avif");
+    background-image: url("surfreport.avif");
 }
 
 .Surf-report:hover:hover {
@@ -132,7 +132,7 @@ header nav ul li {
     display: flex;
     justify-content: center;
     border-radius: 15px;
-    background-image: url("../assets/images/LEDwall.jpg");
+    background-image: url("LEDwall.jpg");
 }
 
 .LED-wall:hover {
@@ -152,7 +152,7 @@ header nav ul li {
     display: flex;
     justify-content: center;
     border-radius: 15px;
-    background-image: url("../assets/images/calculato\ photo.jpg");
+    background-image: url("calculator-photo.jpg");
 }
 
 .calculator:hover {
@@ -172,7 +172,7 @@ header nav ul li {
     display: flex;
     justify-content: center;
     border-radius: 15px;
-    background-image: url("../assets/images/Pastelpuzzle.webp");
+    background-image: url("Pastelpuzzle.webp");
 }
 
 .pastel-puzzles:hover {
@@ -192,7 +192,7 @@ header nav ul li {
     display: flex;
     justify-content: center;
     border-radius: 15px;
-    background-image: url("../assets/images/hero-bg.jpg");
+    background-image: url("hero-bg.jpg");
 }
 
 .run-buddy:hover {
